@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --cor-texto:  #383838;
+    --cor-preta: black;
+    --cor-principal: #fff159;
+    --cor-branca: #f1ffff;
+    --cor-valor: #2ca469; 
+    --cor-valorpacelado: #4db68a;
+    --cor-oferta: #3282fd;
+    --padding:20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 390;
+}
+
+.cabecalho{
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0px;
+}
+
+.barra input{
+    padding: 15px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.barra button{
+    padding: 13px;
+    border-radius: 15px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navegacao nav a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.criarespac{
+    padding-right: 150px;
+}
+
+.navegacao nav a img{
+    padding-right: 50px;
+}
+
+#dois a img{
+    margin-top: 40px;
+    justify-content: center;
+}
+
+#dois a h3{
+    text-align: center;
+}
+
+#dois div{
+    text-align: center;
+    justify-content: center;
+}
+
+#um {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   border-bottom: 1px solid black;
+  
+}
+
+#dois {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgba(238, 238, 238, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+
+#corpo{
+background-color: var(--cor-principal);
+display:grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: var(--padding)
+
+}
+
+#main{
+columns: 5;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+
+}
+.ofertas{
+border: solid var(--cor-preta);
+border-radius: 15px;
+ 
+}
+#secao{
+columns: 5;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+text-align: center;
+}
+#promocoes{
+columns: 5;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+text-align: center;
+
+}
+h2{ 
+text-align: center;
+
+}
+p{
+color: var(--cor-valorpacelado);
+font-size: larger;
+
+}
+h6{
+background-color: var(--cor-oferta);
+color: var(--cor-branca);
+border-radius: 15px;
+padding: 10px;
+width: 90px;
+}
+h5{
+font-size: 25px;
+}
+
+#rodape{
+background-color: var(--cor-principal);
+background-image: url("../img.zip/rodape.png");
+background-size: 50%;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+}
+
+#rodape p{
+    margin-bottom: 20px;
+    color: #383838;
+}
+
+#rodape .acess{
+    margin-block: -2px;
+}
+
+
+#botao{
+text-align: center;
+padding: 20px;
+}
+
+
+.ofertas figure img {
+max-width: 74%;
+display: block;
+margin: 27px auto;
+}
+button{
+color: black;
+border: none;
+}
+
+.text {
+    margin-top: 40px;
+}
+
+.h6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h5 {
+    justify-content: center;
+    text-align: center;
+}
+
+.h3 {
+    text-align: center;
+}
+
+strong{
+    font-weight: 650;
+}
+
+.h3 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.h6 {
+    cursor: pointer;
+}
